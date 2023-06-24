@@ -1,0 +1,71 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  font-size: 1rem;
+  background-color: rgb(14, 159, 232);
+}
+
+h1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color:white;
+}
+
+
+#title{
+  padding:3% 5%;
+}
+.nav-img{
+  height: 10%;
+  width:10%;
+}
+.home{
+  background:rgb(0, 0, 0,0.7) url('../images/pi2.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+a:link{
+text-decoration: none;
+
+}
+.title-img{
+  width:60%
+}
+.btn{
+  padding:0 60% 0 0;
+}
+.btn1{
+  background-color: white;
+  color:black;
+}
+.btn2{
+  background-color:black ;
+  color:white;
+}
+#menu table,td,tr {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color:lightblue;
+}
+#placeholder{
+  
+  padding:2%;
+}
+#signup{
+  background-color:lightblue;
+  margin:0 30% 0 30%;
+  padding:1% 0 2% 5%;
+} 
+#signin{
+  background-color:lightblue;
+  margin:0 30% 0 30%;
+  padding:1% 0 2% 5%;
+} 
+
+footer{
+  background-color:rgb(50, 51, 51);
+  color:white;
+  padding:0 0 0 3%;
+}

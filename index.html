@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pizza Delivery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!--Google form links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+<body >
+<div class="home">
+
+<nav class="nav-background">
+
+<img class="nav-img" src="images/logo.png" alt="logo">
+
+<div class="btn"></div>
+<button  class="btn1" type="button" >Home</button></th>
+<button class="btn1" type="button" ><a href="#menu">Menu</a></button></th>
+<button class="btn1" type="button" ><a href="#placeorder">Place Order</a></button></th>
+<button class="btn1" type="button" ><a href="#signup">Sign Up</a></button></th>
+
+</nav>
+<section id="title">
+  
+
+<div class="row">
+  <div class="col-lg-6 col-md-12">
+   <h1>YOU DON,T NEED<br> A SILVER FORK TO EAT GOOD FOOD.</h1>
+  </div>
+  <div class="col-lg-6 col-md-12">
+     <img class="title-img" src="images/imag.png" style="height:600px;width:500px;">
+  </div>
+</div>
+</section><hr>
+</div>
+<div class="back">
+<section id="menu">
+  
+  
+  <h1 style="text-align:center;color:black;"">Choose Favourite From our Menu!!</h1>
+  <center><table id="menu-tb" cellspacing=20px >
+  <tr><th colspan=4><center>Menu</center></th></tr>
+  <tr><th>Name</th><th>Regular</th><th>Medium</th><th>Large</th></tr>
+  <tr><td>Margherita</td><td>300</td><td>450</td><td>600</td></tr>
+  <tr><td>Peppy Paneer</td><td>252</td><td>350</td><td>500</td></tr>
+  <tr><td>Mexican Green Wave</td><td>252</td><td>350</td><td>500</td></tr>
+  <tr><td>Cheese n Corn</td><td>141</td><td>240</td><td>300</td></tr>
+  <tr><td>Paneer Makhani</td><td>521</td><td>850</td><td>1000</td></tr>
+  <tr><td>Indi Tandoori Paneer</td><td>352</td><td>450</td><td>600</td></tr>
+  <tr><td>The 4 Cheese Pizza</td><td>152</td><td>225</td><td>300</td></tr>
+  <tr><td>Double Cheese Margherita</td><td>256</td><td>375</td><td>500</td></tr>
+  
+  </table>
+</center>
+
+</section><br><hr><br>
+<section id="placeorder">
+  <form style="font-size:25px">
+    <h1 style="color:black;">Place Your Order</h1>
+    Name:<input type=textbox><br><br>
+    Location:<input type=textbox><br><br>
+    Select Your Choices from our Menu:<br>
+    
+      <input type="number" placeholder="Margherita" min=0><br>
+      <input type="number" placeholder="Peppy Paneer" min=0><br>
+      <input type="number" placeholder="Mexican Green Wave" min=0><br>
+      <input type="number" placeholder="Cheese n Corn" min=0><br>
+      <input type="number" placeholder="Paneer Makhani" min=0><br>
+      <input type="number" placeholder="Indi Tandoori Paneer" min=0><br>
+      <input type="number" placeholder="The 4 Cheese Pizza" min=0><br>
+      <input type="number" placeholder="Double Cheese Margherita" min=0><br>
+    <br><br>
+    Choice of Crust:
+    <select name="crust" id="ch" size=1 multiple>
+      <option value="1">Classic Hand Tossed</option>
+      <option value="2">Cheese Burst</option>
+      <option value="3">New Hand Tossed</option>
+      <option value="4">Wheat Thin Crust</option>
+      <option value="5">Fresh Pan Pizza</option>
+    </select><br><br>
+    Size of Crust:
+    <select name="size" id="c" size=1 multiple>
+      <option value="1">regular</option>
+      <option value="2">medium</option>
+      <option value="3">large</option>
+    </select><br><br>
+    Enter Your Quantity:<input type=number min=0><br><br>
+    <input type=submit value="Place Your Order">
+    <input type=reset value="Reset">
+    
+    
+    </form>
+</section><br><hr><br>
+<section id="signup">
+  <div class="content">
+    <form >
+    
+    <h4 style="color:black;">Create an Account</h4>
+    <b>Email</b><br>
+    <input type="email" placeholder="" ><br><br>
+    <b>Phone</b><br>
+    <input type="number" placeholder="" ><br><br>
+    <b> Password</b><br>
+    <input type="password" placeholder="" ><br><br>
+    <b>Confirm Password</b><br>
+    <input type="password" placeholder="" ><br><br>
+    <input type="checkbox">I accept the <a href="https://lapinozpizza.in/terms-and-conditions">Terms of Use</a> &<a href="https://lapinozpizza.in/privacy-policy"</a>Privacy Policy</a><br><br>
+    <input class="btn2" type="submit" value="Create Account"><br><br>
+    Already Have an Account?
+    <a href="#signin">Sign in</a>
+    
+    </form>
+    </div>
+</section><br><hr><br>
+<section id="signin">
+  <form>
+  
+ <h4 style="color:black;">Sign In</h4>
+  <b>Email</b><br>
+  <input type="email" placeholder="" ><br><br>
+  <b> Password</b><br>
+  <input type="password" placeholder="" ><br><br>
+  <input type="submit" value="Sign in"><br><br>
+   Create New Account?
+  <a href="#signup">Sign Up</a>
+  
+  </form>
+</section>
+<h1 style="text-align:center;color:black;" >ENJOY YOUR FAV MEAL!! </h1>
+<br><br>
+</div>
+
+    <br>
+<footer>
+  <div class="row">
+  <div class="col-lg-3 col-md-6">
+       UseFul Links
+          <br><a href="https://lapinozpizza.in/refund-policy">Refund Policy</a><br>
+          <a href="https://lapinozpizza.in/terms-and-conditions">Terms & Conditions</a><br>
+          <a href="https://lapinozpizza.in/privacy-policy">Privacy Policy</a><br>
+          <a href="https://lapinozpizza.in/promo-codes">Promo Codes</a>
+  </div>
+  <div class="col-lg-3 col-md-6"> 
+      Payment Methods<br>
+       <img src="images/visa.png" alt="visa" style="height:20px;width:40px;">
+       <img src="images/gpay.png" alt="Gpay" style="height:20px;width:40px;">
+       <img src="images/paytm.png" alt="paytm" style="height:20px;width:40px;"><br>
+       <img src="images/master.png" alt="Master" style="height:20px;width:40px;">
+       <img src="images/bhim.png" alt="Bhim upi" style="height:30px;width:40px;">
+       <img src="images/pe.png" alt="phone pe" style="height:30px;width:40px;">
+  </div>
+   <div class="col-lg-3 col-md-6"> 
+       Contact Us<br>
+      <a href="https://www.mail.google.com/">shrishtisingh087@gmail.com</a>
+  </div>
+  <div class="col-lg-3 col-md-6"> 
+  Follow Us<br>
+  <a href="https://www.facebook.com/">
+    <img src="images/facebook.jpeg" alt="Facebook" style="width:42px;height:42px;">
+  </a>
+  <a href="https://www.youtube.com/">
+    <img src="images/yt.png" alt="youtube" style="width:42px;height:42px;">
+  </a>
+  <a href="https://twitter.com/">
+    <img src="images/twiter.png" alt="Twiter" style="width:42px;height:42px;">
+  </a>
+  <a href="https://in.linkedin.com/">
+    <img src="images/linkedin.png" alt="Linkedin" style="width:42px;height:42px;">
+  </a>
+  <a href="https://www.instagram.com/">
+    <img src="images/insta.jpeg" alt="HTML tutorial" style="width:42px;height:42px;">
+  </a>
+  </div>
+  </div>
+  
+</footer>
+</body>
+</html>
