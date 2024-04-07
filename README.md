@@ -1,4 +1,4 @@
-Welcome to Pizza Palace, where every slice tells a delicious story! Our front-end only website offers a mouthwatering journey into the world of pizza, showcasing tantalizing menu options and irresistible flavors. Crafted with HTML, CSS, and JavaScript, our website boasts a visually stunning design and seamless user experience.
+Welcome to Pizza website, where every slice tells a delicious story! Our front-end only website offers a mouthwatering journey into the world of pizza, showcasing tantalizing menu options and irresistible flavors. Crafted with HTML, CSS, and JavaScript, our website boasts a visually stunning design and seamless user experience.
 
 Key Features:
 
@@ -14,16 +14,16 @@ Embark on a pizza adventure by visiting our website here. Alternatively, clone t
 
 bash
 Copy code
-git clone https://github.com/Shrishtisinhg07/pizza-website.git
+git clone https://shrishtisingh07.github.io/pizza-website/
 cd pizza-website
 Contribution:
 
-We welcome contributions to enhance the Pizza Palace experience! If you have ideas for improvements or new features, feel free to fork this repository, make your changes, and submit a pull request. Ensure your contributions align with our design principles and coding standards.
+We welcome contributions to enhance the Pizza website experience! If you have ideas for improvements or new features, feel free to fork this repository, make your changes, and submit a pull request. Ensure your contributions align with our design principles and coding standards.
 
 Credits:
 
 Designed and developed by Shrishti Singh.
-Images sourced from Unsplash and Pexels.
+Images sourced from google and Pexels.
 
 Feedback:
 
